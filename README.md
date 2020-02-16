@@ -51,25 +51,25 @@ The output information printed in order:
 
 ************ Top 7 most frequently downloaded books ************
 
-A Tale of Two Cities: Charles Dickens
-The Adventures of Sherlock Holmes: Arthur Conan Doyle
-Pride and Prejudice: Jane Austen
-Frankenstein: Mary Wollstonecraft (Godwin) Shelley
-Little Women: Louisa May Alcott
-Moby Dick; or The Whale: Herman Melville
-Adventures of Huckleberry Finn: Mark Twain (Samuel Clemens)
+	A Tale of Two Cities: Charles Dickens
+	The Adventures of Sherlock Holmes: Arthur Conan Doyle
+	Pride and Prejudice: Jane Austen
+	Frankenstein: Mary Wollstonecraft (Godwin) Shelley
+	Little Women: Louisa May Alcott
+	Moby Dick; or The Whale: Herman Melville
+	Adventures of Huckleberry Finn: Mark Twain (Samuel Clemens)
 
 
 
 
 ************ Population size of each book ************
-A Tale of Two Cities 454
-The Adventures of Sherlock Holmes 355
-Pride and Prejudice 376
-Frankenstein 251
-Little Women 643
-Moby Dick; or The Whale 724
-Adventures of Huckleberry Finn 362
+	A Tale of Two Cities 454
+	The Adventures of Sherlock Holmes 355
+	Pride and Prejudice 376
+	Frankenstein 251
+	Little Women 643
+	Moby Dick; or The Whale 724
+	Adventures of Huckleberry Finn 362
 
 
 
@@ -128,7 +128,7 @@ The accuracy for Fold 1 : 0.9714285714285714
                          Jane Austen       0.95      1.00      0.98        20
                    Louisa May Alcott       1.00      0.95      0.97        20
          Mark Twain (Samuel Clemens)       0.95      1.00      0.98        20
-	 Mary Wollstonecraft Shelley       0.95      1.00      0.98        20
+	 Mary Wollstonecraft (Godwin) Shelley       0.95      1.00      0.98        20
 
                             accuracy                           0.97       140
                            macro avg       0.97      0.97      0.97       140
