@@ -48,7 +48,6 @@ Program prints
 The output information printed in order:
 
 
-1.
 
 ************ Top 7 most frequently downloaded books ************
 
@@ -62,7 +61,6 @@ Adventures of Huckleberry Finn: Mark Twain (Samuel Clemens)
 
 
 
-2.
 
 ************ Population size of each book ************
 A Tale of Two Cities 454
@@ -74,32 +72,30 @@ Moby Dick; or The Whale 724
 Adventures of Huckleberry Finn 362
 
 
-3.
 
 ************ 1400 documents after sampling ************
 
                            Author                           Title                                           Document
-0                 Charles Dickens            A Tale of Two Cities  postpon take he gave rouleau gold i took hand ...
-1                 Charles Dickens            A Tale of Two Cities  say actual done prison made attempt life late ...
-2                 Charles Dickens            A Tale of Two Cities  wish see i grow unequ task i set it cold dark ...
-3                 Charles Dickens            A Tale of Two Cities  environ old chateau keep solitari state apart ...
-4                 Charles Dickens            A Tale of Two Cities  air madam defarg work hand accustom pass place...
-...                           ...                             ...                                                ...
-1395  Mark Twain (Samuel Clemens)  Adventures of Huckleberry Finn  say i reckon bodi up tell truth tight place ta...
-1396  Mark Twain (Samuel Clemens)  Adventures of Huckleberry Finn  chapter iii well i got good go morn old miss w...
-1397  Mark Twain (Samuel Clemens)  Adventures of Huckleberry Finn  done what whole thing whi whole thing there on...
-1398  Mark Twain (Samuel Clemens)  Adventures of Huckleberry Finn  said print offic we found littl bit concern ca...
-1399  Mark Twain (Samuel Clemens)  Adventures of Huckleberry Finn  begun cuss town everybodi but duke say you bet...
+                  Charles Dickens            A Tale of Two Cities  postpon take he gave rouleau gold i took hand ...
+                  Charles Dickens            A Tale of Two Cities  say actual done prison made attempt life late ...
+                  Charles Dickens            A Tale of Two Cities  wish see i grow unequ task i set it cold dark ...
+                  Charles Dickens            A Tale of Two Cities  environ old chateau keep solitari state apart ...
+                  Charles Dickens            A Tale of Two Cities  air madam defarg work hand accustom pass place...
+                              ...                             ...                                                ...
+      Mark Twain (Samuel Clemens)  Adventures of Huckleberry Finn  say i reckon bodi up tell truth tight place ta...
+      Mark Twain (Samuel Clemens)  Adventures of Huckleberry Finn  chapter iii well i got good go morn old miss w...
+      Mark Twain (Samuel Clemens)  Adventures of Huckleberry Finn  done what whole thing whi whole thing there on...
+      Mark Twain (Samuel Clemens)  Adventures of Huckleberry Finn  said print offic we found littl bit concern ca...
+      Mark Twain (Samuel Clemens)  Adventures of Huckleberry Finn  begun cuss town everybodi but duke say you bet...
 
 
 [1400 rows x 3 columns]
 
 
-4.
+
 
 ************ Sampling size of each book ************
-                                      Title  Document
-Author                                               
+Author                                 Title  Document                                             
 Arthur Conan Doyle                      200       200
 Charles Dickens                         200       200
 Herman Melville                         200       200
@@ -115,10 +111,10 @@ Mary Wollstonecraft (Godwin) Shelley    200       200
 
 The following part contains the accuracy indexed for 10-fold cross validation
 
-e.g.
+
 
 The accuracy for Fold 1 : 0.9714285714285714
-                                      precision    recall  f1-score   support
+                  	Author          precision    recall  f1-score   support
 
                   Arthur Conan Doyle       0.95      1.00      0.98        20
                      Charles Dickens       1.00      0.90      0.95        20
@@ -126,7 +122,7 @@ The accuracy for Fold 1 : 0.9714285714285714
                          Jane Austen       0.95      1.00      0.98        20
                    Louisa May Alcott       1.00      0.95      0.97        20
          Mark Twain (Samuel Clemens)       0.95      1.00      0.98        20
-Mary Wollstonecraft (Godwin) Shelley       0.95      1.00      0.98        20
+	 Mary Wollstonecraft Shelley       0.95      1.00      0.98        20
 
                             accuracy                           0.97       140
                            macro avg       0.97      0.97      0.97       140
@@ -174,8 +170,8 @@ The output format is:
 e.g.
 
 'Arthur Conan Doyle' predicted as 'Louisa May Alcott' : 11 examples.
-                 Author                                           Document
-310  Arthur Conan Doyle  flora millar confeder doubt respons disappear ...
+Index   Author              Document
+310  	Arthur Conan Doyle  flora millar confeder doubt respons disappear ...
 202  Arthur Conan Doyle  men known coloni unnatur came settl near possi...
 215  Arthur Conan Doyle  wall wood floor consist larg iron trough i cam...
 376  Arthur Conan Doyle  jostl within space squar mile amid action reac...
