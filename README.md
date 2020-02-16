@@ -121,19 +121,19 @@ The following part contains the accuracy indexed for 10-fold cross validation
 The accuracy for Fold 1 : 0.9714285714285714
                   	
 
-                  	Author          precision    recall  f1-score   support
-		  Arthur Conan Doyle       0.95      1.00      0.98        20
-                     Charles Dickens       1.00      0.90      0.95        20
-                     Herman Melville       1.00      0.95      0.97        20
-                         Jane Austen       0.95      1.00      0.98        20
-                   Louisa May Alcott       1.00      0.95      0.97        20
-         Mark Twain (Samuel Clemens)       0.95      1.00      0.98        20
-	 Mary Wollstonecraft (Godwin) Shelley       0.95      1.00      0.98        20
+						precision    recall  f1-score   support
 
-                            accuracy                           0.97       140
-                           macro avg       0.97      0.97      0.97       140
-                        weighted avg       0.97      0.97      0.97       140
-		
+			  Arthur Conan Doyle       0.95      1.00      0.98        20
+			     Charles Dickens       1.00      0.90      0.95        20
+			     Herman Melville       1.00      0.95      0.97        20
+				 Jane Austen       0.95      1.00      0.98        20
+			   Louisa May Alcott       1.00      0.95      0.97        20
+		 Mark Twain (Samuel Clemens)       0.95      1.00      0.98        20
+	Mary Wollstonecraft (Godwin) Shelley       0.95      1.00      0.98        20
+
+				    accuracy                           0.97       140
+				   macro avg       0.97      0.97      0.97       140
+				weighted avg       0.97      0.97      0.97       140
 
 ...
 
