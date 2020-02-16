@@ -51,7 +51,12 @@ The output information printed in order:
 
 ************ Top 7 most frequently downloaded books ************
 
-A Tale of Two Cities: Charles Dickens
+| Book Title        | Author           |
+| A Tale of Two Cities |   Charles Dickens | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+
+
 The Adventures of Sherlock Holmes: Arthur Conan Doyle
 Pride and Prejudice: Jane Austen
 Frankenstein: Mary Wollstonecraft (Godwin) Shelley
